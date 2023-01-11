@@ -1,5 +1,5 @@
 from budget import Expense
-imoprt collections
+import collections
 
 # call Expense.Expenses constructor
 expenses = Expense.Expenses
@@ -10,4 +10,3 @@ spending_categories = []
 
 for expense in expenses.list:
     spending_categories.append(expense.category)
-
